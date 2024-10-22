@@ -16,10 +16,10 @@ app.use(express.json());
 app.use(morgan('tiny'));
 
 // routes
-const categoriesRoutes = require('./routers/products');
+const categoriesRoutes = require('./routers/categories');
 const productsRoutes = require('./routers/products');
-const userRoutes = require('./routers/products');
-const ordersRoutes = require('./routers/products');
+const userRoutes = require('./routers/users');
+const ordersRoutes = require('./routers/orders');
 
 const api = process.env.API_URL;
 

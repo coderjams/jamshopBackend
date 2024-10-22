@@ -4,4 +4,4 @@ const ordersSchema = new mongoose.Schema({
 
 });
 
-exports.Order = mongoose.model('Order', productSchema);
+exports.Order = mongoose.model('Order', ordersSchema);
